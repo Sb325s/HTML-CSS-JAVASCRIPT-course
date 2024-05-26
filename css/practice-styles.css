@@ -1,0 +1,57 @@
+body {
+    background: goldenrod;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font: 32px Garamond, Helvetica, serif;
+}
+
+table {
+    width: 50%;
+    border: black 1px outset;
+}
+
+thead {
+    text-align: left;
+    color: orangered;;
+    border: black 1px solid;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    
+}
+
+#submit-btn {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background: blueviolet;
+}
+
+th {
+    background: skyblue;
+}
+td {
+    background: lightpink;
+}
+h2 {
+    color: seagreen;
+}
+
+div {
+    background: lightyellow;
+    padding: 10px;
+    margin: 10px;
+}
+address {
+    background-origin: content-box;
+    color: darkred;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}

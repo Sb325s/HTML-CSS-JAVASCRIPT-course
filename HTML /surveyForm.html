@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/css/survey.css" />
+  </head>
+  <body>
+    <h1>Survey</h1>
+    <form
+      action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata"
+      method="post"
+    >
+      <fieldset>
+        <legend>Your Information</legend>
+        <div>
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Your First Name"
+          />
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Your Last Name"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+          />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Survey Questions</legend>
+        <div>
+          Favorite Sport:
+          <input type="radio" name="sport" id="football" value="football" />
+          <label for="football">Football</label>
+          <input type="radio" name="sport" id="basketball" value="basketball" />
+          <label for="basketball">Basketball</label>
+          <input type="radio" name="sport" id="soccer" value="soccer" />
+          <label for="soccer">Soccer</label>
+        </div>
+        <div>
+          Your Pets:
+          <input type="checkbox" id="dog" name="pets[]" value="dog" />
+          <label for="dog">Dog</label>
+          <input type="checkbox" id="cat" name="pets[]" value="cat" />
+          <label for="cat">Cat</label>
+          <input type="checkbox" id="fish" name="pets[]" value="fish" />
+          <label for="fish">Fish</label>
+        </div>
+      </fieldset>
+      <input type="submit" id="submit-btn" />
+    </form>
+  </body>
+</html>

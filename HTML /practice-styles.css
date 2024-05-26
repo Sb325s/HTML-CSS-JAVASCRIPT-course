@@ -1,0 +1,32 @@
+body {
+    background: #eeb4e7;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(226, 43, 43);
+    font: 32px Garamond, Helvetica, serif;
+}
+
+table {
+    width: 50%;
+    border: 10px double;
+    padding: 6px;
+    background-color: darkred;
+}
+
+thead {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+#submit-btn {
+    background:yellow;
+    display: block;
+}
+h2 {color: midnightblue
+}
+
